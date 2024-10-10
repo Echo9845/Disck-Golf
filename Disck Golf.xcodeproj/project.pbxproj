@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D95DCA2CB835F000F6E0DD /* Disck_GolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D95DC92CB835F000F6E0DD /* Disck_GolfApp.swift */; };
+		65D95DCC2CB835F000F6E0DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D95DCB2CB835F000F6E0DD /* ContentView.swift */; };
+		65D95DCE2CB835F400F6E0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D95DCD2CB835F400F6E0DD /* Assets.xcassets */; };
+		65D95DD12CB835F400F6E0DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D95DD02CB835F400F6E0DD /* Preview Assets.xcassets */; };
+		65D95DDB2CB835F400F6E0DD /* Disck_GolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D95DDA2CB835F400F6E0DD /* Disck_GolfTests.swift */; };
+		65D95DE52CB835F400F6E0DD /* Disck_GolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D95DE42CB835F400F6E0DD /* Disck_GolfUITests.swift */; };
+		65D95DE72CB835F400F6E0DD /* Disck_GolfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D95DE62CB835F400F6E0DD /* Disck_GolfUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65D95DD72CB835F400F6E0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D95DBE2CB835F000F6E0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D95DC52CB835F000F6E0DD;
+			remoteInfo = "Disck Golf";
+		};
+		65D95DE12CB835F400F6E0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D95DBE2CB835F000F6E0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D95DC52CB835F000F6E0DD;
+			remoteInfo = "Disck Golf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65D95DC62CB835F000F6E0DD /* Disck Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disck Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D95DC92CB835F000F6E0DD /* Disck_GolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disck_GolfApp.swift; sourceTree = "<group>"; };
+		65D95DCB2CB835F000F6E0DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65D95DCD2CB835F400F6E0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D95DD02CB835F400F6E0DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65D95DD62CB835F400F6E0DD /* Disck GolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disck GolfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D95DDA2CB835F400F6E0DD /* Disck_GolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disck_GolfTests.swift; sourceTree = "<group>"; };
+		65D95DE02CB835F400F6E0DD /* Disck GolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disck GolfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D95DE42CB835F400F6E0DD /* Disck_GolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disck_GolfUITests.swift; sourceTree = "<group>"; };
+		65D95DE62CB835F400F6E0DD /* Disck_GolfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disck_GolfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D95DC32CB835F000F6E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DD32CB835F400F6E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DDD2CB835F400F6E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65D95DBD2CB835F000F6E0DD = {
+			isa = PBXGroup;
+			children = (
+				65D95DC82CB835F000F6E0DD /* Disck Golf */,
+				65D95DD92CB835F400F6E0DD /* Disck GolfTests */,
+				65D95DE32CB835F400F6E0DD /* Disck GolfUITests */,
+				65D95DC72CB835F000F6E0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65D95DC72CB835F000F6E0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D95DC62CB835F000F6E0DD /* Disck Golf.app */,
+				65D95DD62CB835F400F6E0DD /* Disck GolfTests.xctest */,
+				65D95DE02CB835F400F6E0DD /* Disck GolfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D95DC82CB835F000F6E0DD /* Disck Golf */ = {
+			isa = PBXGroup;
+			children = (
+				65D95DC92CB835F000F6E0DD /* Disck_GolfApp.swift */,
+				65D95DCB2CB835F000F6E0DD /* ContentView.swift */,
+				65D95DCD2CB835F400F6E0DD /* Assets.xcassets */,
+				65D95DCF2CB835F400F6E0DD /* Preview Content */,
+			);
+			path = "Disck Golf";
+			sourceTree = "<group>";
+		};
+		65D95DCF2CB835F400F6E0DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65D95DD02CB835F400F6E0DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65D95DD92CB835F400F6E0DD /* Disck GolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D95DDA2CB835F400F6E0DD /* Disck_GolfTests.swift */,
+			);
+			path = "Disck GolfTests";
+			sourceTree = "<group>";
+		};
+		65D95DE32CB835F400F6E0DD /* Disck GolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65D95DE42CB835F400F6E0DD /* Disck_GolfUITests.swift */,
+				65D95DE62CB835F400F6E0DD /* Disck_GolfUITestsLaunchTests.swift */,
+			);
+			path = "Disck GolfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D95DC52CB835F000F6E0DD /* Disck Golf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D95DEA2CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck Golf" */;
+			buildPhases = (
+				65D95DC22CB835F000F6E0DD /* Sources */,
+				65D95DC32CB835F000F6E0DD /* Frameworks */,
+				65D95DC42CB835F000F6E0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disck Golf";
+			productName = "Disck Golf";
+			productReference = 65D95DC62CB835F000F6E0DD /* Disck Golf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D95DD52CB835F400F6E0DD /* Disck GolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D95DED2CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck GolfTests" */;
+			buildPhases = (
+				65D95DD22CB835F400F6E0DD /* Sources */,
+				65D95DD32CB835F400F6E0DD /* Frameworks */,
+				65D95DD42CB835F400F6E0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D95DD82CB835F400F6E0DD /* PBXTargetDependency */,
+			);
+			name = "Disck GolfTests";
+			productName = "Disck GolfTests";
+			productReference = 65D95DD62CB835F400F6E0DD /* Disck GolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65D95DDF2CB835F400F6E0DD /* Disck GolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D95DF02CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck GolfUITests" */;
+			buildPhases = (
+				65D95DDC2CB835F400F6E0DD /* Sources */,
+				65D95DDD2CB835F400F6E0DD /* Frameworks */,
+				65D95DDE2CB835F400F6E0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D95DE22CB835F400F6E0DD /* PBXTargetDependency */,
+			);
+			name = "Disck GolfUITests";
+			productName = "Disck GolfUITests";
+			productReference = 65D95DE02CB835F400F6E0DD /* Disck GolfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D95DBE2CB835F000F6E0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					65D95DC52CB835F000F6E0DD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					65D95DD52CB835F400F6E0DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65D95DC52CB835F000F6E0DD;
+					};
+					65D95DDF2CB835F400F6E0DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65D95DC52CB835F000F6E0DD;
+					};
+				};
+			};
+			buildConfigurationList = 65D95DC12CB835F000F6E0DD /* Build configuration list for PBXProject "Disck Golf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D95DBD2CB835F000F6E0DD;
+			productRefGroup = 65D95DC72CB835F000F6E0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D95DC52CB835F000F6E0DD /* Disck Golf */,
+				65D95DD52CB835F400F6E0DD /* Disck GolfTests */,
+				65D95DDF2CB835F400F6E0DD /* Disck GolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D95DC42CB835F000F6E0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D95DD12CB835F400F6E0DD /* Preview Assets.xcassets in Resources */,
+				65D95DCE2CB835F400F6E0DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DD42CB835F400F6E0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DDE2CB835F400F6E0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D95DC22CB835F000F6E0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D95DCC2CB835F000F6E0DD /* ContentView.swift in Sources */,
+				65D95DCA2CB835F000F6E0DD /* Disck_GolfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DD22CB835F400F6E0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D95DDB2CB835F400F6E0DD /* Disck_GolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D95DDC2CB835F400F6E0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D95DE52CB835F400F6E0DD /* Disck_GolfUITests.swift in Sources */,
+				65D95DE72CB835F400F6E0DD /* Disck_GolfUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65D95DD82CB835F400F6E0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D95DC52CB835F000F6E0DD /* Disck Golf */;
+			targetProxy = 65D95DD72CB835F400F6E0DD /* PBXContainerItemProxy */;
+		};
+		65D95DE22CB835F400F6E0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D95DC52CB835F000F6E0DD /* Disck Golf */;
+			targetProxy = 65D95DE12CB835F400F6E0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65D95DE82CB835F400F6E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65D95DE92CB835F400F6E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D95DEB2CB835F400F6E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disck Golf/Preview Content\"";
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-Golf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D95DEC2CB835F400F6E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disck Golf/Preview Content\"";
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-Golf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D95DEE2CB835F400F6E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-GolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disck Golf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disck Golf";
+			};
+			name = Debug;
+		};
+		65D95DEF2CB835F400F6E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-GolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disck Golf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disck Golf";
+			};
+			name = Release;
+		};
+		65D95DF12CB835F400F6E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-GolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disck Golf";
+			};
+			name = Debug;
+		};
+		65D95DF22CB835F400F6E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6TGT5XCFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EchOwO.Disck-GolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disck Golf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D95DC12CB835F000F6E0DD /* Build configuration list for PBXProject "Disck Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D95DE82CB835F400F6E0DD /* Debug */,
+				65D95DE92CB835F400F6E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D95DEA2CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D95DEB2CB835F400F6E0DD /* Debug */,
+				65D95DEC2CB835F400F6E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D95DED2CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck GolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D95DEE2CB835F400F6E0DD /* Debug */,
+				65D95DEF2CB835F400F6E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D95DF02CB835F400F6E0DD /* Build configuration list for PBXNativeTarget "Disck GolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D95DF12CB835F400F6E0DD /* Debug */,
+				65D95DF22CB835F400F6E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65D95DBE2CB835F000F6E0DD /* Project object */;
+}
